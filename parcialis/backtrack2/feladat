@@ -1,0 +1,7 @@
+A törékeny szállitmány
+Egy futárcégnek N darab csomagja van, mindegyiknek ismerjük a súlyát. Egy speciális szállítóautóba pontosan K darab csomagot kell
+bepakolnunk olyan sorrendben, hogy az autó egyensúlyban maradjon.
+A szabályok a következők:
+A kiválasztott K darab csomag összsúlya pontosan W kell legyen.
+Az autó futóműve törékeny: nem kerülhet egymás mellé két olyan csomag, amelynek súlya meghaladja a 10 kg-ot, mert az adott tengely túlterhelődne.
+Írasd ki az összes lehetséges pakolási sorrendet (a súlyokat)!

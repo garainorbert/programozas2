@@ -1,0 +1,8 @@
+A hacker és az adatcsomag
+Egy hacker egy szigorúan őrzött, N sorból és M oszlopból álló szerverhálózaton próbál átjuttatni egy adatcsomagot. Minden szervernek van
+egy biztonsági azonosítószáma. Az adatcsomag az (1, 1) koordinátájú szerverről indul, és a célja az (N, M) koordinátájú szerver elérése. A
+hálózat védelmi rendszere nagyon okos, ezért a hackernek egy trükköt kell bevetnie: az adatcsomag csak szomszédos szerverekre
+(fel, le, balra, jobbra) mozoghat, de szigorúan váltogatnia kell a páros és páratlan azonosítójú szervereket. Tehát, ha az aktuális szerver
+azonosítója páros, csak páratlan azonosítójú szerverre léphet tovább, és fordítva.
+
+Határozzuk meg és írassuk ki a képernyőre az adatcsomag egy lehetséges útvonalát! Egy szerveren csak egyszer haladhat át a csomag.

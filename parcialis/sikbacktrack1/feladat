@@ -1,0 +1,7 @@
+A kisértet
+Egy régi kastély alaprajzát egy N sorból és M oszlopból álló mátrix írja le. Minden mezőben egy szám található (0 és 100 között), amely
+az adott szoba fényszintjét jelöli. Egy kísértet az (1, 1) koordinátájú szobából indul, és el szeretne jutni a kijáratot jelentő (N, M)
+koordinátájú szobába. A kísértet csak vízszintesen és függőlegesen mozoghat a szomszédos szobákba (fel, le, balra, jobbra). Mivel fél a
+hirtelen fényváltozásoktól, csak olyan szomszédos szobába hajlandó átlépni, ahol a fényszint különbsége az aktuális szobához képest
+legfeljebb 2.
+Határozzuk meg és írassuk ki a kísértet egy lehetséges útvonalát! Egy szobába csak egyszer léphet be.

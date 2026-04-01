@@ -1,0 +1,7 @@
+A páncélszekrény kódja
+Egy bankigazgató elfelejtette a páncélszekrényének a kódját. Csak arra emlékszik, hogy a kód egy K hosszúságú számsorozat, amelyet egy N
+elemű, már növekvő sorrendben megadott számhalmazból állított össze.
+A kódra a következő egyszerű szabályok vonatkoznak:
+Minden számot csak egyszer lehet felhasználni, és a kód számjegyeinek szigorúan növekvő sorrendben kell lenniük.
+A bankigazgató szerencseszáma páros, ezért a kód utolsó számának mindenképpen párosnak kell lennie.
+Készíts programot, amely fájlból beolvassa az adatokat, és kiírja az összes lehetséges kódot a képernyőre!

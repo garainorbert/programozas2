@@ -1,0 +1,6 @@
+Mózeumi kiállitás
+Egy múzeum vezetője N darab műtárgyat kapott, amelyek mindegyikének van egy eszmei értéke (egy szám). A kiállítóterem falán pontosan K
+darab hely van egymás mellett. A vezető azt szeretné, ha a kiállítás vizuálisan "kontrasztos" lenne, ami azt jelenti, hogy nem
+kerülhet egymás mellé két olyan műtárgy, amelyek értékének különbsége túl kicsi. A szabály szerint bármely két egymás mellett lévő
+műtárgy értékének abszolút különbsége legalább D kell, hogy legyen.
+Készíts programot, ami meghatározza, milyen sorrendben rakható fel K darab tárgy a falra!

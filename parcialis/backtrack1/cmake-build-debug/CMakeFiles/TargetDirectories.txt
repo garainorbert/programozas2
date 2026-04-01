@@ -1,0 +1,3 @@
+D:/programozas2/parcialis/backtrack1/cmake-build-debug/CMakeFiles/backtrack1.dir
+D:/programozas2/parcialis/backtrack1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/programozas2/parcialis/backtrack1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
