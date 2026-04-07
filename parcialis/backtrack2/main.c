@@ -28,7 +28,7 @@ int main() {
     bool *used = (bool *)calloc(n, sizeof(bool));
     bool found = false;
 
-    solve_delivery(0, 0, n, k, w, weights, sol, used, &found);
+    solve_delivery(0, n, k, w, weights, sol, used, &found);
 
     if (!found) {
         printf("Nincs megoldas\n");

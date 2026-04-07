@@ -36,7 +36,14 @@ int main() {
 
     visited[0][0] = true;
 
-    if (!solve_hacker(0, 0, n, m, matrix, visited, path_x, path_y, 0)) {
+    bool found = false;
+    path_x[0] = 0;
+    path_y[0] = 0;
+    visited[0][0] = true;
+
+    solve_hacker(1, 0, 0, n, m, matrix, visited, path_x, path_y, &found);
+
+    if (!found) {
         printf("Nincs megoldas\n");
     }
 

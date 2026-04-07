@@ -22,13 +22,14 @@ int main() {
     for (int i = 0; i < n; i++) {
         fscanf(fin, "%d", &numbers[i]);
     }
-
     fclose(fin);
 
     int *sol = (int *)malloc(k * sizeof(int));
+
+    bool *used = (bool *)calloc(n, sizeof(bool));
     bool found = false;
 
-    solve_safe(0, 0, n, k, numbers, sol, &found);
+    solve_safe(0, n, k, numbers, sol, used, &found);
 
     if (!found) {
         printf("Nincs megoldas\n");
@@ -36,6 +37,7 @@ int main() {
 
     free(numbers);
     free(sol);
+    free(used);
 
     return 0;
 }

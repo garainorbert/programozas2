@@ -7,6 +7,7 @@
 
 #include <stdbool.h>
 
-void solve_delivery(int step, int current_weight, int n, int k, int target_w, int *weights, int *sol, bool *used, bool *found);
+bool igeretes_delivery(int step, int *sol, bool *used, int *weights, int target_w);
+void solve_delivery(int step, int n, int k, int target_w, int *weights, int *sol, bool *used, bool *found);
 
 #endif //BACKTRACK2_FUNCTIONS_H

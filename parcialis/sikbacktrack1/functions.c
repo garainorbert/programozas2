@@ -10,18 +10,7 @@ int absolute_diff(int a, int b) {
     return (a > b) ? (a - b) : (b - a);
 }
 
-bool solve_ghost(int x, int y, int n, int m, int **matrix, bool **visited, int *path_x, int *path_y, int step) {
-    path_x[step] = x;
-    path_y[step] = y;
-
-    if (x == n - 1 && y == m - 1) {
-        for (int i = 0; i <= step; i++) {
-            printf("(%d,%d) ", path_x[i] + 1, path_y[i] + 1);
-        }
-        printf("\n");
-        return true;
-    }
-
+void solve_ghost(int step, int x, int y, int n, int m, int **matrix, bool **visited, int *path_x, int *path_y, bool *found) {
     int dx[] = {-1, 1, 0, 0};
     int dy[] = {0, 0, -1, 1};
 
@@ -30,17 +19,26 @@ bool solve_ghost(int x, int y, int n, int m, int **matrix, bool **visited, int *
         int ny = y + dy[i];
 
         if (nx >= 0 && nx < n && ny >= 0 && ny < m) {
-            if (!visited[nx][ny] && absolute_diff(matrix[x][y], matrix[nx][ny]) <= 2) {
+            if (!visited[nx][ny]) {
+                if (absolute_diff(matrix[x][y], matrix[nx][ny]) <= 2) {
 
-                visited[nx][ny] = true;
+                    path_x[step] = nx;
+                    path_y[step] = ny;
+                    visited[nx][ny] = true;
 
-                if (solve_ghost(nx, ny, n, m, matrix, visited, path_x, path_y, step + 1)) {
-                    return true;
+                    if (nx == n - 1 && ny == m - 1) {
+                        *found = true;
+                        for (int j = 0; j <= step; j++) {
+                            printf("(%d,%d) ", path_x[j] + 1, path_y[j] + 1);
+                        }
+                        printf("\n");
+                    } else {
+                        solve_ghost(step + 1, nx, ny, n, m, matrix, visited, path_x, path_y, found);
+                    }
+
+                    visited[nx][ny] = false;
                 }
-                visited[nx][ny] = false;
             }
         }
     }
-
-    return false;
 }

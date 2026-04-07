@@ -7,6 +7,6 @@
 
 #include <stdbool.h>
 
-void solve_safe(int step, int start, int n, int k, int *numbers, int *sol, bool *found);
+void solve_safe(int step, int n, int k, int *numbers, int *sol, bool *used, bool *found);
 
 #endif //BACKTRACK1_FUNCTIONS_H

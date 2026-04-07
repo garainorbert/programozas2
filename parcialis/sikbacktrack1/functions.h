@@ -7,6 +7,6 @@
 
 #include <stdbool.h>
 
-bool solve_ghost(int x, int y, int n, int m, int **matrix, bool **visited, int *path_x, int *path_y, int step);
+void solve_ghost(int step, int x, int y, int n, int m, int **matrix, bool **visited, int *path_x, int *path_y, bool *found);
 
 #endif //SIKBACKTRACK1_FUNCTIONS_H
