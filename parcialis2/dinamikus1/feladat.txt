@@ -1,0 +1,9 @@
+A Hátizsákos Túra
+Egy többnapos túrára indulsz. A hátizsákod maximum W kilót bír el. Kikészítettél N darab tárgyat (sátor, hálózsák, konzervek, stb.).
+Minden tárgynak ismert a súlya és a "hasznossági értéke" (pl. a sátor nagyon hasznos, de nehéz). Ezeket a tárgyakat nem lehet kettévágni:
+vagy berakod a táskába az egészet, vagy otthon hagyod.
+
+Készíts dinamikus programozási táblázatot (DP mátrixot), és határozd meg, mely tárgyakat kell elvinned ahhoz,
+hogy a hasznossági érték maximális legyen, de ne szakadjon le a hátad!
+
+Bemenet: A táska kapacitása (W), a tárgyak száma (N), majd minden tárgy súlya és hasznossági értéke.

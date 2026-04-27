@@ -1,0 +1,8 @@
+Az Édességbolt
+Kaptál egy ajándékdobozt, amibe maximum W gramm édességet pakolhatsz. A boltban N féle cukorka van nagy üvegekben.
+Mindegyik üvegről tudjuk, hogy összesen hány gramm van benne, és mennyi a teljes ára. A legjobb, hogy kimérve is kérhetsz belőlük,
+azaz nem kell elvinni az egész üveget, kérhetsz belőle csak egy keveset is (a súllyal arányosan nő az ára).
+
+Válogasd össze az édességeket úgy, hogy a dobozod pontosan tele legyen, és a benne lévő édességek összértéke a lehető legnagyobb legyen!
+
+Bemenet: A doboz kapacitása (W), a fajták száma (N), majd a cukorkák súlya és ára.

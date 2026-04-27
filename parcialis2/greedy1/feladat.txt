@@ -1,0 +1,7 @@
+A Filmfesztivál
+Kimentél egy filmfesztiválra, ahol N darab filmet vetítenek különböző termekben. A műsorfüzetben minden filmhez meg van adva,
+hogy mikor kezdődik és mikor van vége. Sajnos egyszerre csak egy filmet tudsz nézni, és ha beülsz egyre, azt végig is akarod nézni.
+
+Írj programot, amely kiválasztja, hogy legfeljebb hány filmet tudsz megnézni elejétől a végéig úgy, hogy az időpontok ne fedjék egymást!
+
+Bemenet: A filmek száma (N), majd minden filmhez két szám: a kezdési és befejezési időpont.

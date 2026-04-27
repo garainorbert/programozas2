@@ -1,0 +1,8 @@
+A Pénztáros
+Egy boltban dolgozol kasszásként. A vásárlónak pontosan O összegű visszajárót kell adnod.
+A kasszában a következő címletek vannak: 1, 5, 10, 50, 100, 200 Lei (minden címletből végtelen sok áll rendelkezésre).
+
+Add vissza az összeget a lehető legkevesebb darab érme/papírpénz felhasználásával!
+(Mivel a címletek "szabályosak", a mohó algoritmus itt tökéletesen működik).
+
+Bemenet: A fizetendő visszajáró összege (O).

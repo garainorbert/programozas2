@@ -1,0 +1,3 @@
+"D:\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\dinamikus2.dir/objects.a
+"D:\CLion 2023.2.2\bin\mingw\bin\ar.exe" qc CMakeFiles\dinamikus2.dir/objects.a @CMakeFiles\dinamikus2.dir\objects1.rsp
+"D:\CLion 2023.2.2\bin\mingw\bin\gcc.exe" -g -Wl,--whole-archive CMakeFiles\dinamikus2.dir/objects.a -Wl,--no-whole-archive -o dinamikus2.exe -Wl,--out-implib,libdinamikus2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\dinamikus2.dir\linkLibs.rsp

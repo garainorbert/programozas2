@@ -1,0 +1,9 @@
+Az Almakert
+Egy téglalap alakú, N x M mezőből álló almakertben vagy. A bal felső (0,0) sarokból indulsz, és a jobb alsó (N-1, M-1)
+sarokban van a kijárat. Minden mezőn meg van adva, hogy hány darab almát tudsz ott felszedni. Szabály, hogy csak jobbra vagy
+lefelé léphetsz egyet.
+
+Keresd meg azt az utat a kijáratig, amellyel a legtöbb almát tudod összegyűjteni! A megoldáshoz a részeredményeket
+(az adott mezőig gyűjthető maximumot) egy DP táblázatban kell vezetned.
+
+Bemenet: A kert méretei (N, M), majd maga a rács az almák számával.
